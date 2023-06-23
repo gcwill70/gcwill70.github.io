@@ -10,21 +10,23 @@ class EducationWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Column(
+      mainAxisSize: MainAxisSize.min,
+      mainAxisAlignment: MainAxisAlignment.center,
       crossAxisAlignment: CrossAxisAlignment.start,
       children: <Widget>[
-        _buildEducationContainerHeading(),
-        SizedBox(height: 8.0),
-        _buildEducationTimeline(),
+        Text(Strings.education, style: TextStyles.subheading),
+        Column(
+          children: Strings.educationList
+              .map((education) => _buildEducationTile(education))
+              .toList(),
+        ),
       ],
     );
   }
 }
 
 Widget _buildEducationContainerHeading() {
-  return Text(
-    Strings.education,
-    style: TextStyles.subheading,
-  );
+  return Text(Strings.education, style: TextStyles.subheading);
 }
 
 Widget _buildEducationTimeline() {

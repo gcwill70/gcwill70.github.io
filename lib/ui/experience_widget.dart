@@ -11,8 +11,6 @@ class ExperienceWidget extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: <Widget>[
         _buildExperienceContainerHeading(),
-        _buildExperienceSummary(),
-        SizedBox(height: 8.0),
         _buildExperienceTimeline(),
       ],
     );
