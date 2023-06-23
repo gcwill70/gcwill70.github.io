@@ -139,18 +139,20 @@ class HomePage extends StatelessWidget {
             width: 20.0,
           ),
         ),
-        // SizedBox(width: 16.0),
-        // GestureDetector(
-        //   onTap: () {
-        //     window.open(Links.links["Overleaf"]!, "Resume");
-        //   },
-        //   child: Image.network(
-        //     Images.overleaf,
-        //     color: Color(0xFF45405B),
-        //     height: 20.0,
-        //     width: 20.0,
-        //   ),
-        // ),
+        SizedBox(width: 16.0),
+        GestureDetector(
+          onTap: () {
+            AnchorElement elem = AnchorElement(href: Links.links["Resume"]);
+            elem.download = "Resume";
+            elem.click();
+          },
+          child: Image.network(
+            Images.resume,
+            color: Color(0xFF45405B),
+            height: 20.0,
+            width: 20.0,
+          ),
+        ),
       ],
     );
   }

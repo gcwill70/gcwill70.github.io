@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 
 import '../constants/strings.dart';
 import '../constants/text_styles.dart';
-import '../widgets/responsive_widget.dart';
 
 class SkillsWidget extends StatelessWidget {
   const SkillsWidget({super.key});
@@ -39,7 +38,7 @@ Widget _buildSkillChip(BuildContext context, String label) {
     label: Text(
       label,
       style: TextStyles.chip.copyWith(
-        fontSize: ResponsiveWidget.isSmallScreen(context) ? 10.0 : 11.0,
+        fontSize: 10.0,
       ),
     ),
   );
