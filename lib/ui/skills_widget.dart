@@ -29,7 +29,7 @@ class SkillsWidget extends StatelessWidget {
 
 Widget _buildSkillsContainerHeading() {
   return Text(
-    Strings.skillsTitle,
+    'Skills',
     style: TextStyles.subheading,
   );
 }

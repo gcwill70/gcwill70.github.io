@@ -1,9 +1,7 @@
 import 'dart:html';
 
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:flutter_markdown/flutter_markdown.dart';
-import 'package:personal_website_workshop/ui/skills_widget.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 import '../constants/images.dart';
@@ -11,8 +9,6 @@ import '../constants/fonts.dart';
 import '../constants/links.dart';
 import '../constants/strings.dart';
 import '../constants/text_styles.dart';
-import '../utils/screen/screen_utils.dart';
-import 'experience_widget.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -55,17 +51,6 @@ class HomePage extends StatelessWidget {
           ),
         ),
       ),
-    );
-  }
-
-  Widget _buildContent(BuildContext context) {
-    return Column(
-      mainAxisSize: MainAxisSize.min,
-      mainAxisAlignment: MainAxisAlignment.start,
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: Strings.experienceList
-          .map((experience) => ExperienceWidget(experience))
-          .toList(),
     );
   }
 
