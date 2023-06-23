@@ -5,52 +5,101 @@ import 'package:flutter_markdown/flutter_markdown.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 import '../constants/images.dart';
-import '../constants/fonts.dart';
 import '../constants/links.dart';
 import '../constants/strings.dart';
-import '../constants/text_styles.dart';
 
-class HomePage extends StatelessWidget {
+class HomePage extends StatefulWidget {
   const HomePage({super.key});
+
+  @override
+  State<HomePage> createState() => _HomePageState();
+}
+
+class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
+  late TabController _controller;
+
+  @override
+  void initState() {
+    super.initState();
+    _controller = TabController(length: 2, vsync: this);
+  }
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      color: Color(0xFFF7F8FA),
-      home: Scaffold(
-        backgroundColor: Colors.transparent,
-        body: Padding(
-          padding: EdgeInsets.all(10),
-          child: Row(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Expanded(flex: 1, child: _buildSummary(context)),
-              Expanded(
-                flex: 2,
-                child: FutureBuilder(
-                  future: DefaultAssetBundle.of(context)
-                      .loadString("assets/content.md"),
-                  builder: (context, snapshot) {
-                    if (snapshot.hasData) {
-                      return Markdown(
-                        data: snapshot.data!,
-                        onTapLink: (text, url, title) {
-                          if (url != null) {
-                            launchUrl(Uri.parse(url));
-                          }
-                        },
-                      );
-                    }
-                    return Center(child: CircularProgressIndicator());
-                  },
-                ),
-              ),
-              Spacer(flex: 1),
-            ],
+      themeMode: ThemeMode.dark,
+      theme: ThemeData.light(),
+      darkTheme: ThemeData.dark().copyWith(
+        textTheme: Typography().white,
+        elevatedButtonTheme: ElevatedButtonThemeData(
+          style: ButtonStyle(
+            backgroundColor: MaterialStateProperty.resolveWith<Color>(
+                (Set<MaterialState> states) {
+              if (states.contains(MaterialState.hovered)) {
+                return const Color.fromARGB(
+                    255, 183, 179, 179); // Lighter grey color when hovered
+              }
+              return const Color.fromARGB(255, 78, 76, 76); // Default color
+            }),
+            shape: MaterialStateProperty.all<OutlinedBorder>(
+                RoundedRectangleBorder(borderRadius: BorderRadius.circular(8))),
           ),
         ),
       ),
+      home: Builder(builder: (context) {
+        return Scaffold(
+          appBar: PreferredSize(
+            preferredSize: Size.fromHeight(50),
+            child: Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: IntrinsicHeight(
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    ElevatedButton(
+                      child: Text('Home'),
+                      onPressed: () => setState(() => _controller.animateTo(0)),
+                    ),
+                    SizedBox(width: 30),
+                    ElevatedButton(
+                      child: Text('Portfolio'),
+                      onPressed: () => setState(() => _controller.animateTo(1)),
+                    ),
+                  ],
+                ),
+              ),
+            ),
+          ),
+          body: IndexedStack(
+            index: _controller.index,
+            children: [
+              Padding(
+                padding: EdgeInsets.all(10),
+                child: Row(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Expanded(flex: 1, child: _buildSummary(context)),
+                    Expanded(flex: 2, child: _buildContent(context)),
+                    Spacer(flex: 1),
+                  ],
+                ),
+              ),
+              Padding(
+                padding: EdgeInsets.all(10),
+                child: Row(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Expanded(flex: 1, child: _buildSummary(context)),
+                    Expanded(flex: 2, child: _buildPortfolio(context)),
+                    Spacer(flex: 1),
+                  ],
+                ),
+              ),
+            ],
+          ),
+        );
+      }),
     );
   }
 
@@ -64,6 +113,8 @@ class HomePage extends StatelessWidget {
         _buildAboutMe(context),
         SizedBox(height: 10.0),
         _buildLinks(context),
+        SizedBox(height: 40.0),
+        _buildSkills(context),
       ],
     );
   }
@@ -74,38 +125,21 @@ class HomePage extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.center,
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Image.network(Images.programmer3, height: 245),
+        Image.network(Images.photo, height: 345),
         SizedBox(height: 4.0),
-        RichText(
-          text: TextSpan(
-            style: TextStyle(fontSize: 14.0, color: Colors.black),
-            children: <TextSpan>[
-              TextSpan(
-                text: Strings.firstName,
-                style: TextStyles.heading.copyWith(
-                  fontFamily: Fonts.nexaLight,
-                  fontSize: 36,
-                ),
-              ),
-              TextSpan(
-                text: Strings.lastName,
-                style: TextStyles.heading.copyWith(
-                  color: Color(0xFF50AFC0),
-                  fontSize: 36,
-                ),
-              ),
-            ],
-          ),
+        Text(
+          Strings.name,
+          style: Theme.of(context).textTheme.displaySmall,
         ),
         SizedBox(height: 4.0),
-        Text(Strings.headline, style: TextStyles.subheading),
+        Text(
+          Strings.title,
+          style: Theme.of(context).textTheme.headlineSmall,
+        ),
         SizedBox(height: 4.0),
-        Padding(
-          padding: EdgeInsets.only(right: 80.0),
-          child: Text(
-            Strings.summary,
-            style: TextStyles.body,
-          ),
+        Text(
+          Strings.subtitle,
+          style: Theme.of(context).textTheme.bodyLarge,
         ),
       ],
     );
@@ -122,9 +156,8 @@ class HomePage extends StatelessWidget {
           },
           child: Image.network(
             Images.linkedin,
-            color: Color(0xFF45405B),
-            height: 20.0,
-            width: 20.0,
+            color: Colors.white,
+            width: 40.0,
           ),
         ),
         SizedBox(width: 16.0),
@@ -134,9 +167,8 @@ class HomePage extends StatelessWidget {
           },
           child: Image.network(
             Images.github,
-            color: Color(0xFF45405B),
-            height: 20.0,
-            width: 20.0,
+            color: Colors.white,
+            width: 40.0,
           ),
         ),
         SizedBox(width: 16.0),
@@ -148,12 +180,68 @@ class HomePage extends StatelessWidget {
           },
           child: Image.network(
             Images.resume,
-            color: Color(0xFF45405B),
-            height: 20.0,
-            width: 20.0,
+            color: Colors.white,
+            width: 40.0,
           ),
         ),
       ],
+    );
+  }
+
+  Widget _buildSkills(BuildContext context) {
+    return SizedBox(
+      width: 300,
+      child: Wrap(
+        children: Strings.skills
+            .map((skill) => Padding(
+                  padding: EdgeInsets.only(right: 8.0, bottom: 10),
+                  child: Chip(
+                    label: Text(
+                      skill,
+                      style: Theme.of(context).textTheme.bodyMedium,
+                    ),
+                  ),
+                ))
+            .toList(),
+      ),
+    );
+  }
+
+  Widget _buildContent(BuildContext context) {
+    return FutureBuilder(
+      future: DefaultAssetBundle.of(context).loadString("assets/content.md"),
+      builder: (context, snapshot) {
+        if (snapshot.hasData) {
+          return Markdown(
+            data: snapshot.data!,
+            onTapLink: (text, url, title) {
+              if (url != null) {
+                launchUrl(Uri.parse(url));
+              }
+            },
+          );
+        }
+        return Center(child: CircularProgressIndicator());
+      },
+    );
+  }
+
+  Widget _buildPortfolio(BuildContext context) {
+    return FutureBuilder(
+      future: DefaultAssetBundle.of(context).loadString("assets/portfolio.md"),
+      builder: (context, snapshot) {
+        if (snapshot.hasData) {
+          return Markdown(
+            data: snapshot.data!,
+            onTapLink: (text, url, title) {
+              if (url != null) {
+                launchUrl(Uri.parse(url));
+              }
+            },
+          );
+        }
+        return Center(child: CircularProgressIndicator());
+      },
     );
   }
 }

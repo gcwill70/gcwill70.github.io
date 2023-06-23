@@ -1,20 +1,19 @@
 class Strings {
   Strings._();
-  static const String firstName = 'Geoff';
-  static const String lastName = 'Cramer';
-  static const String headline = 'Developer & Teacher';
-  static const String summary = 'M.S. in Electrical & Computer Engineering';
+  static const String name = 'Geoff Cramer';
+  static const String title = 'Developer & Teacher';
+  static const String subtitle = 'M.S. in Electrical & Computer Engineering';
 
   // Skills
   static const List<String> skills = [
-    'Flutter',
-    'Google Cloud',
-    'Dart',
-    'Android',
-    'iOS',
-    'Xamarin',
-    'GitHub Actions',
+    'Python',
+    'Dart & Flutter',
+    'TypeScript',
     'CI/CD',
+    'Google Cloud',
+    'Android SDK',
+    'Docker',
+    'C#',
     'AWS',
     'C/C++',
     'Java',
