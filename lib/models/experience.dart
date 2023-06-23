@@ -1,9 +1,5 @@
-
 class Experience {
-  String from;
-  String to;
-  String organization;
-  String title;
+  String content;
 
-  Experience(this.from, this.to, this.organization, this.title);
+  Experience(this.content);
 }

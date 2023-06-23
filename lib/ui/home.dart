@@ -1,8 +1,10 @@
 import 'dart:html';
 
 import 'package:flutter/material.dart';
-import 'package:personal_website_workshop/ui/education_widget.dart';
+import 'package:flutter/services.dart';
+import 'package:flutter_markdown/flutter_markdown.dart';
 import 'package:personal_website_workshop/ui/skills_widget.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 import '../constants/images.dart';
 import '../constants/fonts.dart';
@@ -20,35 +22,64 @@ class HomePage extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       color: Color(0xFFF7F8FA),
-      routes: {
-        '/': (context) => Scaffold(
-              backgroundColor: Colors.transparent,
-              body: Padding(
-                padding: const EdgeInsets.all(50),
-                child: SingleChildScrollView(
-                  child: _buildContent(context),
+      home: Scaffold(
+        backgroundColor: Colors.transparent,
+        body: Padding(
+          padding: EdgeInsets.all(10),
+          child: Row(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Expanded(flex: 1, child: _buildSummary(context)),
+              Expanded(
+                flex: 2,
+                child: FutureBuilder(
+                  future: DefaultAssetBundle.of(context)
+                      .loadString("assets/content.md"),
+                  builder: (context, snapshot) {
+                    if (snapshot.hasData) {
+                      return Markdown(
+                        data: snapshot.data!,
+                        onTapLink: (text, url, title) {
+                          if (url != null) {
+                            launchUrl(Uri.parse(url));
+                          }
+                        },
+                      );
+                    }
+                    return Center(child: CircularProgressIndicator());
+                  },
                 ),
               ),
-            ),
-        '/portfolio': (context) => Container(),
-      },
+              Spacer(flex: 1),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+
+  Widget _buildContent(BuildContext context) {
+    return Column(
+      mainAxisSize: MainAxisSize.min,
+      mainAxisAlignment: MainAxisAlignment.start,
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: Strings.experienceList
+          .map((experience) => ExperienceWidget(experience))
+          .toList(),
     );
   }
 
   // Body Methods:--------------------------------------------------------------
-  Widget _buildContent(BuildContext context) {
-    return SizedBox(
-      width: 250,
-      child: Column(
-        mainAxisSize: MainAxisSize.min,
-        mainAxisAlignment: MainAxisAlignment.start,
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: <Widget>[
-          _buildAboutMe(context),
-          SizedBox(height: 10.0),
-          _buildSocialIcons(context),
-        ],
-      ),
+  Widget _buildSummary(BuildContext context) {
+    return Column(
+      mainAxisSize: MainAxisSize.min,
+      mainAxisAlignment: MainAxisAlignment.start,
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        _buildAboutMe(context),
+        SizedBox(height: 10.0),
+        _buildLinks(context),
+      ],
     );
   }
 
@@ -86,15 +117,18 @@ class HomePage extends StatelessWidget {
         SizedBox(height: 4.0),
         Padding(
           padding: EdgeInsets.only(right: 80.0),
-          child: Text(Strings.summary, style: TextStyles.body),
+          child: Text(
+            Strings.summary,
+            style: TextStyles.body,
+          ),
         ),
       ],
     );
   }
 
-  Widget _buildSocialIcons(BuildContext context) {
+  Widget _buildLinks(BuildContext context) {
     return Row(
-      mainAxisSize: MainAxisSize.max,
+      mainAxisSize: MainAxisSize.min,
       mainAxisAlignment: MainAxisAlignment.start,
       children: <Widget>[
         GestureDetector(
@@ -120,18 +154,18 @@ class HomePage extends StatelessWidget {
             width: 20.0,
           ),
         ),
-        SizedBox(width: 16.0),
-        GestureDetector(
-          onTap: () {
-            window.open(Links.links["Overleaf"]!, "Resume");
-          },
-          child: Image.network(
-            Images.overleaf,
-            color: Color(0xFF45405B),
-            height: 20.0,
-            width: 20.0,
-          ),
-        ),
+        // SizedBox(width: 16.0),
+        // GestureDetector(
+        //   onTap: () {
+        //     window.open(Links.links["Overleaf"]!, "Resume");
+        //   },
+        //   child: Image.network(
+        //     Images.overleaf,
+        //     color: Color(0xFF45405B),
+        //     height: 20.0,
+        //     width: 20.0,
+        //   ),
+        // ),
       ],
     );
   }

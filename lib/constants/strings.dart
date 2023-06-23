@@ -42,38 +42,20 @@ class Strings {
       'Recent Master\'s graduate with 3+ years of professional software development experience and 2 years of teaching experience.';
   static List<Experience> experienceList = [
     Experience(
-      'Fall 2021',
-      'Spring 2023',
-      'Purdue ECE Department',
-      'Master\'s Thesis - Study of Trust & Safety Engineering in Open-source Social Media Platforms',
+      '''# Master's Thesis - Study of Trust & Safety Engineering in Open-source Social Media Platforms
+      ## Fall 2021 - Spring 2023''',
     ),
     Experience(
-      'Fall 2021',
+      '''Fall 2021',
       'Spring 2023',
       'Purdue ECE Department',
-      'Graduate Teaching Assistant - Software Course DevOps',
+      'Graduate Teaching Assistant - Software Course DevOps''',
     ),
     Experience(
-      'May 2018',
+      '''May 2018',
       'January 2022',
       'Magnar LLC',
-      'Software Engineer',
-    ),
-  ];
-
-  // Education
-  static List<Education> educationList = [
-    Education(
-      'Fall 2021',
-      'Spring 2023',
-      'Purdue University',
-      'M.S. in Electrical and Computer Engineering',
-    ),
-    Education(
-      'Fall 2014',
-      'Fall 2018',
-      'Purdue University',
-      'B.S. in Electrical Engineering',
+      'Software Engineer''',
     ),
   ];
 }
