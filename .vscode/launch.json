@@ -5,18 +5,18 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "personal_website_workshop",
+            "name": "personal_website",
             "request": "launch",
             "type": "dart"
         },
         {
-            "name": "personal_website_workshop (profile mode)",
+            "name": "personal_website (profile mode)",
             "request": "launch",
             "type": "dart",
             "flutterMode": "profile"
         },
         {
-            "name": "personal_website_workshop (release mode)",
+            "name": "personal_website (release mode)",
             "request": "launch",
             "type": "dart",
             "flutterMode": "release"

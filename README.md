@@ -1,12 +1,16 @@
-This is a template for creating a personal website! Checkout the live demo [here](https://purdueflutter.github.io/personal_website_workshop)!
+# personal_website
 
-# Setup
-1. Fork repo and rename to {username}.github.io
-2. Go to Settings > Pages and click the ‘Source’ dropdown and select ‘GitHub Actions’
-3. Click on the Actions tab and enable workflows.
-4. Click on “Deploy static content to pages” action and click “Run Workflow” on the right
+A new Flutter project.
 
+## Getting Started
 
-# References
+This project is a starting point for a Flutter application.
 
-Forked from https://github.com/zubairehman/Portfolio-Demo
+A few resources to get you started if this is your first Flutter project:
+
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
