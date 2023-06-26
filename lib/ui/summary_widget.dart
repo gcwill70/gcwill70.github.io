@@ -1,6 +1,7 @@
 import 'dart:html';
 
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 import '../constants/images.dart';
 import '../constants/links.dart';
@@ -58,7 +59,7 @@ class SummaryWidget extends StatelessWidget {
       children: <Widget>[
         GestureDetector(
           onTap: () {
-            window.open(Links.links["LinkedIn"]!, Links.links["LinkedIn"]!);
+            launchUrl(Uri.parse(Links.links["LinkedIn"]!));
           },
           child: Image.network(
             Images.linkedin,
@@ -69,7 +70,7 @@ class SummaryWidget extends StatelessWidget {
         SizedBox(width: 16.0),
         GestureDetector(
           onTap: () {
-            window.open(Links.links["Github"]!, Links.links["Github"]!);
+            launchUrl(Uri.parse(Links.links["Github"]!));
           },
           child: Image.network(
             Images.github,
