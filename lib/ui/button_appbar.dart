@@ -15,7 +15,6 @@ class ButtonAppBar extends StatelessWidget {
               child: Text('Home'),
               onPressed: () {
                 Navigator.pushReplacementNamed(context, '/');
-                // Navigator.push()
               },
             ),
             SizedBox(width: 30),

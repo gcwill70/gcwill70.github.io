@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:personal_website/constants/files.dart';
 
 import 'md_view.dart';
 import 'summary_widget.dart';
@@ -12,7 +13,7 @@ class PortfolioPage extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: const [
         Expanded(flex: 1, child: SummaryWidget()),
-        Expanded(flex: 2, child: MdView("assets/portfolio.md")),
+        Expanded(flex: 2, child: MdView(Files.portfolio)),
         Spacer(flex: 1),
       ],
     );
