@@ -69194,7 +69194,7 @@ A.I8.prototype={
 S(a){var s=null,r=t.E
 return A.acC(A.a([A.acC(A.a([A.oK("assets/images/IMG_3191.JPG",s,345,s),A.ff(s,4,s),A.l8("Geoff Cramer",s,A.aX(a).p3.c,s),A.ff(s,4,s),A.l8("Developer & Teacher",s,A.aX(a).p3.f,s),A.ff(s,4,s),A.l8("M.S. in Electrical & Computer Engineering",s,A.aX(a).p3.y,s)],r),B.bp,B.pb,B.d_),A.ff(s,10,s),this.Tq(a),A.ff(s,40,s),this.Tz(a)],r),B.bp,B.by,B.d_)},
 Tq(a){var s=null
-return A.wo(A.a([A.oH(s,A.oK("assets/icons/ic_linkedin.png",B.i,s,40),B.aq,!1,s,s,s,s,s,s,s,s,s,s,s,s,s,s,new A.a38(),s,s,s,s,s,s),A.ff(s,s,16),A.oH(s,A.oK("assets/icons/ic_github.png",B.i,s,40),B.aq,!1,s,s,s,s,s,s,s,s,s,s,s,s,s,s,new A.a39(),s,s,s,s,s,s),A.ff(s,s,16),A.oH(s,A.oK("assets/icons/ic_resume.png",B.i,s,40),B.aq,!1,s,s,s,s,s,s,s,s,s,s,s,s,s,s,new A.a3a(),s,s,s,s,s,s)],t.E),B.fl,B.by,B.d_,s)},
+return A.wo(A.a([A.oH(s,A.oK("assets/icons/ic_linkedIn.png",B.i,s,40),B.aq,!1,s,s,s,s,s,s,s,s,s,s,s,s,s,s,new A.a38(),s,s,s,s,s,s),A.ff(s,s,16),A.oH(s,A.oK("assets/icons/ic_github.png",B.i,s,40),B.aq,!1,s,s,s,s,s,s,s,s,s,s,s,s,s,s,new A.a39(),s,s,s,s,s,s),A.ff(s,s,16),A.oH(s,A.oK("assets/icons/ic_resume.png",B.i,s,40),B.aq,!1,s,s,s,s,s,s,s,s,s,s,s,s,s,s,new A.a3a(),s,s,s,s,s,s)],t.E),B.fl,B.by,B.d_,s)},
 Tz(a){var s=t.Jm
 return A.ff(A.aea(B.H,A.ai(new A.a3(B.AA,new A.a3b(a),s),!0,s.h("aF.E")),B.vq),null,300)}}
 A.a38.prototype={
