@@ -27,28 +27,35 @@ class SummaryWidget extends StatelessWidget {
   }
 
   Widget _buildAboutMe(BuildContext context) {
-    return Column(
-      mainAxisSize: MainAxisSize.min,
-      mainAxisAlignment: MainAxisAlignment.center,
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        Image.network(Images.photo, height: 345),
-        SizedBox(height: 4.0),
-        Text(
-          Strings.name,
-          style: Theme.of(context).textTheme.displaySmall,
-        ),
-        SizedBox(height: 4.0),
-        Text(
-          Strings.title,
-          style: Theme.of(context).textTheme.headlineSmall,
-        ),
-        SizedBox(height: 4.0),
-        Text(
-          Strings.subtitle,
-          style: Theme.of(context).textTheme.bodyLarge,
-        ),
-      ],
+    return SelectionArea(
+      child: Column(
+        mainAxisSize: MainAxisSize.min,
+        mainAxisAlignment: MainAxisAlignment.center,
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Image.network(Images.photo, height: 345),
+          SizedBox(height: 4.0),
+          Text(
+            Strings.name,
+            style: Theme.of(context).textTheme.displaySmall,
+          ),
+          SizedBox(height: 4.0),
+          Text(
+            Strings.title,
+            style: Theme.of(context).textTheme.headlineSmall,
+          ),
+          SizedBox(height: 4.0),
+          Text(
+            Strings.subtitle,
+            style: Theme.of(context).textTheme.bodyLarge,
+          ),
+          SizedBox(height: 4.0),
+          Text(
+            'gcwill70@gmail.com',
+            style: Theme.of(context).textTheme.bodyMedium,
+          ),
+        ],
+      ),
     );
   }
 
