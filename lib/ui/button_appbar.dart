@@ -12,7 +12,7 @@ class ButtonAppBar extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             ElevatedButton(
-              child: Text('Home'),
+              child: Text('About'),
               onPressed: () {
                 Navigator.pushReplacementNamed(context, '/');
               },
