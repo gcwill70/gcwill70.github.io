@@ -6,7 +6,8 @@
         {
             "label": "deploy",
             "type": "shell",
-            "command": "flutter clean && flutter build web && git add . && git commit -m \"github pages deployment\" && git push"
+            "command": "flutter clean && flutter build web && git add . && git commit -m \"github pages deployment\" && git push",
+            "problemMatcher": []
         }
     ]
 }
