@@ -44,4 +44,4 @@ I'm seeking a developer advocate role to combine my passion for teaching with my
 #### August 2019 - May 2020
 * Taught an entry level C/C++ course for engineering students by leveraging a flipped-classroom approach.
 * Navigated the challenges of COVID-19 by converting to online instruction while ensuring student engagement.
-* Led adopting of [repl.it](https://replit.com/) online IDE to ease setup for students.
+* Led adoption of [repl.it](https://replit.com/) online IDE to ease setup for students.
