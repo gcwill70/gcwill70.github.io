@@ -4,6 +4,8 @@
 * Designed for those that love writing and receiving handwritten messages from friends and family.
 * Planned features: add pictures & images, type letters using handwritten fonts, and find pen pals in the app.
 
+&nbsp;
+
 ### Purdue Flutter Development Club
 * State management workshop. [YouTube](https://www.youtube.com/watch?v=EJag5uRRy6c) | [GitHub](https://github.com/purdueflutter/state_mgmt_workshop)
 * Personal website workshop. [YouTube](https://www.youtube.com/watch?v=gq3wCHI0G5w) | [GitHub](https://github.com/purdueflutter/purdueflutter.github.io)
