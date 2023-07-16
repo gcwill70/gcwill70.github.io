@@ -1,9 +1,6 @@
 # About Me
-Hi there! I'm Geoff and I'm a developer and teacher.
-
-I have a mix of industry (2 yrs) and teaching (2 yrs) experience and love educating others about software engineering.
-
-I'm seeking a developer advocate role to combine my passion for teaching with my love of software development.
+Hi there! I'm Geoff and I'm a developer and teacher with 3 years of professional experience.
+Please reach out if you want to chat! (links on the left).
 
 &nbsp;
 
