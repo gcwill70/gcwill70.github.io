@@ -15,6 +15,9 @@
 
 &nbsp;
 
-### GTA Autograding Work
+### Open-source Work
+* Tool to collect and analyze online discussions. [GitHub](https://github.com/gcwill70/mining_tool)
+* Google Maps Clone in Flutter. [GitHub](https://github.com/gcwill70/maps_clone)
 * Python-based autograder. [PyPI](https://pypi.org/project/autograde.py)
 * GitHub Actions autograding workflow. [GitHub](https://github.com/PurdueECE/autograder-demo)
+
