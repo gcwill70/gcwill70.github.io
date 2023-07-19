@@ -26,6 +26,8 @@ Please reach out if you want to chat! (links on the left).
 #### Fall 2021 - Spring 2023
 * Lead the [Purdue Flutter Development Club](https://github.com/purdueflutter) along with President to recruit members, organize events, run workshops, and motivate students.
 * Host guest speaker sessions with industry Flutter professionals to encourage students on their journey as learners.
+* Organized collaboration event with [Very Good Ventures](https://verygood.ventures).
+* Organized collaboration event with [Parabeac](https://parabeac.com).
 
 &nbsp;
 
