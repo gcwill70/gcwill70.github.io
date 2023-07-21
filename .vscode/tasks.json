@@ -6,8 +6,16 @@
         {
             "label": "deploy",
             "type": "shell",
-            "command": "flutter clean && flutter build web && git add . && git commit -m \"github pages deployment\" && git push",
-            "problemMatcher": []
+            "command": "flutter clean && flutter build web && git add . && git commit -m \"${input:message}\" && git push",
+            "problemMatcher": [],
         }
+    ],
+    "inputs": [
+        {
+            "id": "message",
+            "default": "github pages deployment",
+            "type": "promptString",
+            "description": "git commit message",
+        },
     ]
 }
