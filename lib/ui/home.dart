@@ -1,31 +1,29 @@
 import 'package:flutter/material.dart';
 
 import 'about_page.dart';
-import 'button_appbar.dart';
-import 'portfolio_page.dart';
 
 class HomePage extends StatelessWidget {
   final Map<String, WidgetBuilder> routes = {
     '/': (context) => Scaffold(
-          appBar: PreferredSize(
-            preferredSize: Size.fromHeight(50),
-            child: ButtonAppBar(),
-          ),
+          // appBar: PreferredSize(
+          //   preferredSize: Size.fromHeight(50),
+          //   child: ButtonAppBar(),
+          // ),
           body: Padding(
             padding: EdgeInsets.all(10),
             child: AboutPage(),
           ),
         ),
-    '/portfolio': (context) => Scaffold(
-          appBar: PreferredSize(
-            preferredSize: Size.fromHeight(50),
-            child: ButtonAppBar(),
-          ),
-          body: Padding(
-            padding: EdgeInsets.all(10),
-            child: PortfolioPage(),
-          ),
-        ),
+    // '/portfolio': (context) => Scaffold(
+    //       appBar: PreferredSize(
+    //         preferredSize: Size.fromHeight(50),
+    //         child: ButtonAppBar(),
+    //       ),
+    //       body: Padding(
+    //         padding: EdgeInsets.all(10),
+    //         child: PortfolioPage(),
+    //       ),
+    //     ),
   };
 
   HomePage({super.key});
