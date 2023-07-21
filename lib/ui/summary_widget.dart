@@ -86,9 +86,7 @@ class SummaryWidget extends StatelessWidget {
         SizedBox(width: 16.0),
         GestureDetector(
           onTap: () {
-            AnchorElement elem = AnchorElement(href: Links.links["Resume"]);
-            elem.download = "Resume";
-            elem.click();
+            window.open(Uri.file(Links.links["Resume"]!).toString(), "resume");
           },
           child: Image.network(
             Images.resume,
