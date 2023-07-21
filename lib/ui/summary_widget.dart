@@ -20,8 +20,6 @@ class SummaryWidget extends StatelessWidget {
         _buildAboutMe(context),
         SizedBox(height: 10.0),
         _buildLinks(context),
-        SizedBox(height: 40.0),
-        _buildSkills(context),
       ],
     );
   }
@@ -99,25 +97,6 @@ class SummaryWidget extends StatelessWidget {
           ),
         ),
       ],
-    );
-  }
-
-  Widget _buildSkills(BuildContext context) {
-    return SizedBox(
-      width: 300,
-      child: Wrap(
-        children: Strings.skills
-            .map((skill) => Padding(
-                  padding: EdgeInsets.only(right: 8.0, bottom: 10),
-                  child: Chip(
-                    label: Text(
-                      skill,
-                      style: Theme.of(context).textTheme.bodyMedium,
-                    ),
-                  ),
-                ))
-            .toList(),
-      ),
     );
   }
 }
