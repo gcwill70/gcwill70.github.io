@@ -5,21 +5,20 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "personal_website",
+            "name": "debug",
             "request": "launch",
             "type": "dart"
         },
         {
-            "name": "personal_website (profile mode)",
+            "name": "release",
             "request": "launch",
-            "type": "dart",
-            "flutterMode": "profile"
-        },
-        {
-            "name": "personal_website (release mode)",
-            "request": "launch",
-            "type": "dart",
-            "flutterMode": "release"
+            "type": "python",
+            "module": "http.server",
+            "args": [
+                "8000",
+                "-d",
+                "build/web",
+            ]
         }
-    ]
+    ],
 }
