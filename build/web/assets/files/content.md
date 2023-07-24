@@ -1,5 +1,5 @@
 # About Me
-Hi there! I'm Geoff and I'm a developer with 3 years of professional experience.
+Hi there! I'm Geoff and I'm a software engineer with 3 years of professional experience.
 Please reach out if you want to chat! (links on the left).
 
 &nbsp;
