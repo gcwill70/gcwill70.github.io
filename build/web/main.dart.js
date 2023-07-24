@@ -73159,8 +73159,8 @@ A.a63.prototype={
 $0(){A.Tl(A.hQ("https://github.com/gcwill70",0,null))},
 $S:0}
 A.a64.prototype={
-$0(){var s=A.ak3("files/Resume_GeoffCramer.pdf")
-s.download="Resume"
+$0(){var s=A.ak3("assets/files/Resume_GeoffCramer.pdf")
+s.download="Resume_GeoffCramer"
 s.click()},
 $S:0}
 A.a1O.prototype={

@@ -22,6 +22,7 @@
                 "clean",
                 "build"
             ],
+            "dependsOrder": "sequence",
             "command": "git add . && git commit -m \"${input:message}\" && git push",
             "problemMatcher": [],
         }
