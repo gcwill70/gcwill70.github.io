@@ -23,7 +23,7 @@
                 "build"
             ],
             "dependsOrder": "sequence",
-            "command": "git add . && git commit -m \"${input:message}\" && git push",
+            "command": "git add build/web && git commit -m \"${input:message}\" && git push",
             "problemMatcher": [],
         }
     ],
