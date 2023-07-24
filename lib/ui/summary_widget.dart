@@ -88,7 +88,7 @@ class SummaryWidget extends StatelessWidget {
         GestureDetector(
           onTap: () {
             AnchorElement elem = AnchorElement(href: Files.resume);
-            elem.download = "Resume";
+            elem.download = "Resume_GeoffCramer";
             elem.click();
           },
           child: Image.network(
