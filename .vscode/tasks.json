@@ -4,9 +4,25 @@
     "version": "2.0.0",
     "tasks": [
         {
+            "label": "clean",
+            "type": "shell",
+            "command": "flutter clean",
+            "problemMatcher": [],
+        },
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "flutter build web",
+            "problemMatcher": [],
+        },
+        {
             "label": "deploy",
             "type": "shell",
-            "command": "flutter clean && flutter build web && git add . && git commit -m \"${input:message}\" && git push",
+            "dependsOn": [
+                "clean",
+                "build"
+            ],
+            "command": "git add . && git commit -m \"${input:message}\" && git push",
             "problemMatcher": [],
         }
     ],
