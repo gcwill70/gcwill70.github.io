@@ -12,6 +12,7 @@
         {
             "name": "release",
             "request": "launch",
+            "preLaunchTask": "build",
             "type": "python",
             "module": "http.server",
             "args": [
