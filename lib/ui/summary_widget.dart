@@ -1,6 +1,7 @@
 import 'dart:html';
 
 import 'package:flutter/material.dart';
+import 'package:personal_website/constants/files.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 import '../constants/images.dart';
@@ -86,7 +87,7 @@ class SummaryWidget extends StatelessWidget {
         SizedBox(width: 16.0),
         GestureDetector(
           onTap: () {
-            AnchorElement elem = AnchorElement(href: Links.links["Resume"]);
+            AnchorElement elem = AnchorElement(href: Files.resume);
             elem.download = "Resume";
             elem.click();
           },
