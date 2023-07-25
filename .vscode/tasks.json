@@ -30,7 +30,7 @@
     "inputs": [
         {
             "id": "message",
-            "default": "github pages deployment",
+            "default": "deployment commit message",
             "type": "promptString",
             "description": "git commit message",
         },
