@@ -23,16 +23,16 @@
                 "build"
             ],
             "dependsOrder": "sequence",
-            "command": "git add build/web && git commit -m \"${input:message}\" && git push",
+            "command": "git add . && git commit -m \"${input:message}\" && git push",
             "problemMatcher": [],
         }
     ],
     "inputs": [
         {
             "id": "message",
-            "default": "deployment",
             "type": "promptString",
             "description": "deployment commit message",
+            "default": "deployment",
         },
     ]
 }
