@@ -36,3 +36,10 @@ Please reach out if you want to chat! (links on the left).
 * State management workshop. [YouTube](https://www.youtube.com/watch?v=EJag5uRRy6c) | [GitHub](https://github.com/purdueflutter/state_mgmt_workshop)
 * Personal website workshop. [YouTube](https://www.youtube.com/watch?v=gq3wCHI0G5w) | [GitHub](https://github.com/purdueflutter/purdueflutter.github.io)
 * Class viewer app. [GitHub](https://github.com/purdueflutter/basicflutterworkshop_app)
+
+&nbsp;
+
+### M.S. Thesis in Software Engineering - Purdue University
+* Thesis Title: Trust & Safety Engineering in Open-source Social Media Platforms
+* First empirical study of T&S Engineering that analyzed 60 GitHub issues in [Mastodon](https://joinmastodon.org) and [Diaspora](https://diasporafoundation.org). Manuscript is available [here.](https://hammer.purdue.edu/articles/thesis/AN_EMPIRICAL_STUDY_OF_TRUST_SAFETY_ENGINEERING_IN_OPEN-SOURCE_SOCIAL_MEDIA_PLATFORMS/22673890/1)
+* Developed [mining_tool](https://github.com/gcwill70/mining_tool) in Python to collect and analyze GitHub issue discussions.
