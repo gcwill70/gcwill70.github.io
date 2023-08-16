@@ -1,38 +1,35 @@
 {
-    // See https://go.microsoft.com/fwlink/?LinkId=733558
-    // for the documentation about the tasks.json format
-    "version": "2.0.0",
-    "tasks": [
-        {
-            "label": "clean",
-            "type": "shell",
-            "command": "flutter clean",
-            "problemMatcher": [],
-        },
-        {
-            "label": "build",
-            "type": "shell",
-            "command": "flutter build web",
-            "problemMatcher": [],
-        },
-        {
-            "label": "deploy",
-            "type": "shell",
-            "dependsOn": [
-                "clean",
-                "build"
-            ],
-            "dependsOrder": "sequence",
-            "command": "git add . && git commit -m \"${input:message}\" && git push",
-            "problemMatcher": [],
-        }
-    ],
-    "inputs": [
-        {
-            "id": "message",
-            "type": "promptString",
-            "description": "deployment commit message",
-            "default": "deployment",
-        },
-    ]
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "clean",
+      "type": "shell",
+      "command": "flutter clean",
+      "problemMatcher": []
+    },
+    {
+      "label": "build",
+      "type": "shell",
+      "command": "flutter build web",
+      "problemMatcher": []
+    },
+    {
+      "label": "deploy",
+      "type": "shell",
+      "dependsOn": ["clean", "build"],
+      "dependsOrder": "sequence",
+      "command": "git add build/web && git commit -m \"${input:message}\" && git push",
+      "problemMatcher": []
+    }
+  ],
+  "inputs": [
+    {
+      "id": "message",
+      "type": "promptString",
+      "description": "deployment commit message",
+      "default": "deployment"
+    }
+  ]
 }
