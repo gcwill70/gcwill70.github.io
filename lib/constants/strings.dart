@@ -6,10 +6,10 @@ class Strings {
 
   // Skills
   static const List<String> languages = [
-    'Dart',
-    'Python',
     'JavaScript',
     'TypeScript',
+    'Dart',
+    'Python',
     'C',
     'C++',
     'C#',
@@ -33,9 +33,11 @@ class Strings {
   ];
 
   static const List<String> frontend = [
+    'React.js',
+    'Redux',
     'HTML',
     'CSS',
-    'React.js',
+    'tailwindcss'
   ];
 
   static const List<String> backend = [
