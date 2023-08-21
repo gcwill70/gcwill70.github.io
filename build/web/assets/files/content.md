@@ -9,6 +9,13 @@ Please reach out if you want to chat! (links on the left).
 
 # Projects
 
+### FillHistory - [GitHub](https://github.com/gcwill70/FillHistory)
+* Autofill links from browser history.
+* Open a window with a shortcut, search through history, then insert into the selected text box.
+* Built with TypeScript, React, and Redux. Clean architecture design.
+
+&nbsp;
+
 ### [correspond.app](https://correspond.app)
 * Flutter mobile app to send and receive handwritten letters.
 * Clean, feature-oriented architecture with Firebase auth providers and Firestore integration.
