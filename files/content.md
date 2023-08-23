@@ -9,7 +9,7 @@ Please reach out if you want to chat! (links on the left).
 
 # Projects
 
-### FillHistory - [GitHub](https://github.com/gcwill70/FillHistory)
+### [FillHistory](https://chrome.google.com/webstore/detail/fillhistory/nnbagffnngmfbogaajipjmaadglmjgjc)
 * Autofill links from browser history.
 * Open a window with a shortcut, search through history, then insert into the selected text box.
 * Built with TypeScript, React, and Redux. Clean architecture design.
