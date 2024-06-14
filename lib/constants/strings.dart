@@ -1,7 +1,7 @@
 class Strings {
   Strings._();
   static const String name = 'Geoff Cramer';
-  static const String title = 'Developer & Teacher';
+  static const String title = 'Fullstack Developer';
   static const String subtitle = 'M.S. in Electrical & Computer Engineering';
 
   // Skills
@@ -21,6 +21,7 @@ class Strings {
     'git',
     'Git Flow',
     'CI/CD',
+    'Docker',
     'GitHub',
     'GitHub Actions',
   ];
@@ -32,6 +33,13 @@ class Strings {
     'iOS',
   ];
 
+  static const List<String> frameworks = [
+    'Node.js',
+    'Next.js',
+    'Remix',
+    'Express.js',
+  ];
+
   static const List<String> frontend = [
     'React.js',
     'Redux',
@@ -41,12 +49,10 @@ class Strings {
   ];
 
   static const List<String> backend = [
-    'Node.js',
-    'Express.js',
     'SQL',
     'NoSQL',
-    'Google Cloud',
     'AWS',
-    'Docker',
+    'Elastic Beanstalk',
+    'Google Cloud',
   ];
 }
