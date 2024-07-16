@@ -7,7 +7,7 @@ export const ExperiencesView = () => {
         professional experience.
       </p>
       <p className="mb-10">
-        Please reach out if you want to chat! (links on the left).
+        Please reach out if you want to chat!
       </p>
 
       <h1 className="text-3xl font-bold mb-4">Projects</h1>
