@@ -6,9 +6,7 @@ export const ExperiencesView = () => {
         Hi there! I'm Geoff and I'm a software engineer with 3 years of
         professional experience.
       </p>
-      <p className="mb-10">
-        Please reach out if you want to chat!
-      </p>
+      <p className="mb-10">Please reach out if you want to chat!</p>
 
       <h1 className="text-3xl font-bold mb-4">Projects</h1>
 
@@ -17,6 +15,7 @@ export const ExperiencesView = () => {
           <a
             href="https://chrome.google.com/webstore/detail/fillhistory/nnbagffnngmfbogaajipjmaadglmjgjc"
             className="text-blue-500 hover:underline"
+            target="_blank"
           >
             FillHistory
           </a>
@@ -36,8 +35,9 @@ export const ExperiencesView = () => {
       <div className="mb-8">
         <h2 className="text-2xl font-semibold mb-2">
           <a
-            href="https://correspond.app"
+            href="https://correspond-dotapp.web.app/"
             className="text-blue-500 hover:underline"
+            target="_blank"
           >
             correspond.app
           </a>
@@ -70,6 +70,7 @@ export const ExperiencesView = () => {
             <a
               href="https://pypi.org/project/autograde.py/"
               className="text-blue-500 hover:underline"
+              target="_blank"
             >
               autograde.py
             </a>{" "}
@@ -80,6 +81,7 @@ export const ExperiencesView = () => {
             <a
               href="https://github.com/PurdueECE/autograder-demo"
               className="text-blue-500 hover:underline"
+              target="_blank"
             >
               GitHub Actions workflow
             </a>{" "}
@@ -94,6 +96,7 @@ export const ExperiencesView = () => {
           <a
             href="https://github.com/gcwill70/maps_clone"
             className="text-blue-500 hover:underline"
+            target="_blank"
           >
             Google Maps Clone
           </a>
@@ -124,6 +127,7 @@ export const ExperiencesView = () => {
             <a
               href="https://github.com/purdueflutter"
               className="text-blue-500 hover:underline"
+              target="_blank"
             >
               Purdue Flutter Development Club
             </a>{" "}
@@ -135,6 +139,7 @@ export const ExperiencesView = () => {
             <a
               href="https://www.youtube.com/watch?v=EJag5uRRy6c"
               className="text-blue-500 hover:underline"
+              target="_blank"
             >
               YouTube
             </a>{" "}
@@ -142,6 +147,7 @@ export const ExperiencesView = () => {
             <a
               href="https://github.com/purdueflutter/state_mgmt_workshop"
               className="text-blue-500 hover:underline"
+              target="_blank"
             >
               GitHub
             </a>
@@ -151,6 +157,7 @@ export const ExperiencesView = () => {
             <a
               href="https://www.youtube.com/watch?v=gq3wCHI0G5w"
               className="text-blue-500 hover:underline"
+              target="_blank"
             >
               YouTube
             </a>{" "}
@@ -158,6 +165,7 @@ export const ExperiencesView = () => {
             <a
               href="https://github.com/purdueflutter/purdueflutter.github.io"
               className="text-blue-500 hover:underline"
+              target="_blank"
             >
               GitHub
             </a>
@@ -167,6 +175,7 @@ export const ExperiencesView = () => {
             <a
               href="https://github.com/purdueflutter/basicflutterworkshop_app"
               className="text-blue-500 hover:underline"
+              target="_blank"
             >
               GitHub
             </a>
@@ -189,6 +198,7 @@ export const ExperiencesView = () => {
             <a
               href="https://joinmastodon.org"
               className="text-blue-500 hover:underline"
+              target="_blank"
             >
               Mastodon
             </a>{" "}
@@ -196,6 +206,7 @@ export const ExperiencesView = () => {
             <a
               href="https://diasporafoundation.org"
               className="text-blue-500 hover:underline"
+              target="_blank"
             >
               Diaspora
             </a>
@@ -203,6 +214,7 @@ export const ExperiencesView = () => {
             <a
               href="https://hammer.purdue.edu/articles/thesis/AN_EMPIRICAL_STUDY_OF_TRUST_SAFETY_ENGINEERING_IN_OPEN-SOURCE_SOCIAL_MEDIA_PLATFORMS/22673890/1"
               className="text-blue-500 hover:underline"
+              target="_blank"
             >
               here.
             </a>
@@ -212,6 +224,7 @@ export const ExperiencesView = () => {
             <a
               href="https://github.com/gcwill70/mining_tool"
               className="text-blue-500 hover:underline"
+              target="_blank"
             >
               mining_tool
             </a>{" "}
