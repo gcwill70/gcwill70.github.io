@@ -3,8 +3,8 @@ export const ExperiencesView = () => {
     <div className="">
       <h1 className="text-3xl font-bold mb-4">About Me</h1>
       <p className="mb-4">
-        Hi there! I'm Geoff and I'm a software engineer with 3 years of
-        professional experience.
+        Hi there! I&apos;m Geoff and I&apos;m a software engineer with 3 years
+        of professional experience.
       </p>
       <p className="mb-10">Please reach out if you want to chat!</p>
 
