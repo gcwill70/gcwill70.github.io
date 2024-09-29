@@ -13,7 +13,7 @@ export const ExperiencesView = () => {
       <div className="mb-8">
         <h2 className="text-2xl font-semibold mb-2">
           <a
-            href="https://chrome.google.com/webstore/detail/fillhistory/nnbagffnngmfbogaajipjmaadglmjgjc"
+            href="https://github.com/gcwill70/FillHistory"
             className="text-blue-500 hover:underline"
             target="_blank"
           >
