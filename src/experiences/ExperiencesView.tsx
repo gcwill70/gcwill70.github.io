@@ -69,7 +69,7 @@ export const ExperiencesView = () => {
           </li>
           <li>
             <a
-              href="https://chrome.google.com/webstore/detail/fillhistory/nnbagffnngmfbogaajipjmaadglmjgjc"
+              href="https://github.com/gcwill70/Senior-Design/tree/master/SensorHub"
               className="text-blue-500 hover:underline"
               target="_blank"
             >
