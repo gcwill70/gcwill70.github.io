@@ -20,7 +20,6 @@ export const SkillsView = () => {
         <div className="mb-8">
           <h1 className="text-3xl font-bold mb-4">Frameworks</h1>
           <div className="flex flex-wrap">
-            <span className="m-1 p-2 bg-green-200 rounded">Node.js</span>
             <span className="m-1 p-2 bg-green-200 rounded">Next.js</span>
             <span className="m-1 p-2 bg-green-200 rounded">Remix</span>
             <span className="m-1 p-2 bg-green-200 rounded">Express.js</span>
@@ -35,6 +34,7 @@ export const SkillsView = () => {
             <span className="m-1 p-2 bg-yellow-200 rounded">HTML</span>
             <span className="m-1 p-2 bg-yellow-200 rounded">CSS</span>
             <span className="m-1 p-2 bg-yellow-200 rounded">tailwindcss</span>
+            <span className="m-1 p-2 bg-yellow-200 rounded">shadcn/ui</span>
           </div>
         </div>
 
@@ -54,6 +54,8 @@ export const SkillsView = () => {
         <div className="mb-8">
           <h1 className="text-3xl font-bold mb-4">Mobile</h1>
           <div className="flex flex-wrap">
+            <span className="m-1 p-2 bg-red-200 rounded">React Native</span>
+            <span className="m-1 p-2 bg-red-200 rounded">Expo</span>
             <span className="m-1 p-2 bg-red-200 rounded">Flutter</span>
             <span className="m-1 p-2 bg-red-200 rounded">Xamarin</span>
             <span className="m-1 p-2 bg-red-200 rounded">Android</span>

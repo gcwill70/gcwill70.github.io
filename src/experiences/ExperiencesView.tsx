@@ -1,17 +1,87 @@
 export const ExperiencesView = () => {
   return (
-    <div className="">
-      <h1 className="text-3xl font-bold mb-4">About Me</h1>
-      <p className="mb-4">
-        Hi there! I&apos;m Geoff and I&apos;m a software engineer with 3 years
-        of professional experience.
-      </p>
-      <p className="mb-10">Please reach out if you want to chat!</p>
+    <div className="space-y-6">
+      <div className="space-y-3">
+        <h1 className="text-3xl font-bold">About Me</h1>
+        <p>
+          Hi there! I&apos;m Geoff and I&apos;m a software engineer with 3 years
+          of professional experience.
+        </p>
+      </div>
 
-      <h1 className="text-3xl font-bold mb-4">Projects</h1>
+      <div className="space-y-3">
+        <h1 className="text-3xl font-bold">Education</h1>
+        <h2 className="text-2xl font-semibold">
+          M.S. in Computer Engineering with Thesis - Purdue University - 2023
+        </h2>
+        <ul className="list-disc list-inside">
+          <li>
+            Thesis Title: Trust & Safety Engineering in Open-source Social Media
+            Platforms
+          </li>
+          <li>
+            First empirical study of T&S Engineering that analyzed 60 GitHub
+            issues in{" "}
+            <a
+              href="https://joinmastodon.org"
+              className="text-blue-500 hover:underline"
+              target="_blank"
+            >
+              Mastodon
+            </a>{" "}
+            and{" "}
+            <a
+              href="https://diasporafoundation.org"
+              className="text-blue-500 hover:underline"
+              target="_blank"
+            >
+              Diaspora
+            </a>
+            . Manuscript is available{" "}
+            <a
+              href="https://doi.org/10.25394/PGS.22673890.v1"
+              className="text-blue-500 hover:underline"
+              target="_blank"
+            >
+              here.
+            </a>
+          </li>
+          <li>
+            Developed{" "}
+            <a
+              href="https://github.com/gcwill70/mining_tool"
+              className="text-blue-500 hover:underline"
+              target="_blank"
+            >
+              mining_tool
+            </a>{" "}
+            in Python to collect and analyze GitHub issue discussions.
+          </li>
+        </ul>
+        <h2 className="text-2xl font-semibold">
+          B.S. Electrical Engineering with Distinction - Purdue University -
+          2018
+        </h2>
+        <ul className="list-disc list-inside">
+          <li>
+            Focus on software engineering with courses in data structures,
+            algorithms, and object-oriented design.
+          </li>
+          <li>
+            <a
+              href="https://chrome.google.com/webstore/detail/fillhistory/nnbagffnngmfbogaajipjmaadglmjgjc"
+              className="text-blue-500 hover:underline"
+              target="_blank"
+            >
+              SensorHub - Senior Project
+            </a>
+          </li>
+        </ul>
+      </div>
 
-      <div className="mb-8">
-        <h2 className="text-2xl font-semibold mb-2">
+      <div className="space-y-3">
+        <h1 className="text-3xl font-bold">Projects</h1>
+        <h2 className="text-2xl font-semibold">
           <a
             href="https://chrome.google.com/webstore/detail/fillhistory/nnbagffnngmfbogaajipjmaadglmjgjc"
             className="text-blue-500 hover:underline"
@@ -30,10 +100,7 @@ export const ExperiencesView = () => {
             Built with TypeScript, React, and Redux. Clean architecture design.
           </li>
         </ul>
-      </div>
-
-      <div className="mb-8">
-        <h2 className="text-2xl font-semibold mb-2">
+        <h2 className="text-2xl font-semibold">
           <a
             href="https://correspond-dotapp.web.app/"
             className="text-blue-500 hover:underline"
@@ -57,10 +124,8 @@ export const ExperiencesView = () => {
             handwritten fonts, and find pen pals in the app.
           </li>
         </ul>
-      </div>
 
-      <div className="mb-8">
-        <h2 className="text-2xl font-semibold mb-2">Python Autograder</h2>
+        <h2 className="text-2xl font-semibold">Python Autograder</h2>
         <ul className="list-disc list-inside">
           <li>
             Developed toolkit to collect and grade student code inside a GitHub
@@ -89,10 +154,8 @@ export const ExperiencesView = () => {
             due date, and grades them with autograde.py.
           </li>
         </ul>
-      </div>
 
-      <div className="mb-8">
-        <h2 className="text-2xl font-semibold mb-2">
+        <h2 className="text-2xl font-semibold">
           <a
             href="https://github.com/gcwill70/maps_clone"
             className="text-blue-500 hover:underline"
@@ -115,10 +178,8 @@ export const ExperiencesView = () => {
             and run the app.
           </li>
         </ul>
-      </div>
 
-      <div className="mb-8">
-        <h2 className="text-2xl font-semibold mb-2">
+        <h2 className="text-2xl font-semibold">
           Purdue Flutter Development Club
         </h2>
         <ul className="list-disc list-inside">
@@ -179,56 +240,6 @@ export const ExperiencesView = () => {
             >
               GitHub
             </a>
-          </li>
-        </ul>
-      </div>
-
-      <div className="mb-8">
-        <h2 className="text-2xl font-semibold mb-2">
-          M.S. Thesis in Software Engineering - Purdue University
-        </h2>
-        <ul className="list-disc list-inside">
-          <li>
-            Thesis Title: Trust & Safety Engineering in Open-source Social Media
-            Platforms
-          </li>
-          <li>
-            First empirical study of T&S Engineering that analyzed 60 GitHub
-            issues in{" "}
-            <a
-              href="https://joinmastodon.org"
-              className="text-blue-500 hover:underline"
-              target="_blank"
-            >
-              Mastodon
-            </a>{" "}
-            and{" "}
-            <a
-              href="https://diasporafoundation.org"
-              className="text-blue-500 hover:underline"
-              target="_blank"
-            >
-              Diaspora
-            </a>
-            . Manuscript is available{" "}
-            <a
-              href="https://hammer.purdue.edu/articles/thesis/AN_EMPIRICAL_STUDY_OF_TRUST_SAFETY_ENGINEERING_IN_OPEN-SOURCE_SOCIAL_MEDIA_PLATFORMS/22673890/1"
-              className="text-blue-500 hover:underline"
-              target="_blank"
-            >
-              here.
-            </a>
-          </li>
-          <li>
-            Developed{" "}
-            <a
-              href="https://github.com/gcwill70/mining_tool"
-              className="text-blue-500 hover:underline"
-              target="_blank"
-            >
-              mining_tool
-            </a>{" "}
-            in Python to collect and analyze GitHub issue discussions.
           </li>
         </ul>
       </div>
