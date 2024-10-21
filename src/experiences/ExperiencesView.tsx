@@ -4,8 +4,7 @@ export const ExperiencesView = () => {
       <div className="space-y-3">
         <h1 className="text-3xl font-bold">About Me</h1>
         <p>
-          Hi there! I&apos;m Geoff and I&apos;m a software engineer with 3 years
-          of professional experience.
+          Hi there! I&apos;m Geoff and I&apos;ve been software engineer since 2018.
         </p>
       </div>
 
@@ -184,7 +183,7 @@ export const ExperiencesView = () => {
         </h2>
         <ul className="list-disc list-inside">
           <li>
-            Lead the{" "}
+            Led the{" "}
             <a
               href="https://github.com/purdueflutter"
               className="text-blue-500 hover:underline"
