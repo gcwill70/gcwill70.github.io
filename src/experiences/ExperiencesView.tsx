@@ -66,7 +66,7 @@ export const ExperiencesView = () => {
             Focus on software engineering with courses in data structures,
             algorithms, and object-oriented design.
           </li>
-          <li>
+          {/* <li>
             <a
               href="https://github.com/gcwill70/Senior-Design/tree/master/SensorHub"
               className="text-blue-500 hover:underline"
@@ -74,7 +74,7 @@ export const ExperiencesView = () => {
             >
               SensorHub - Senior Project
             </a>
-          </li>
+          </li> */}
         </ul>
       </div>
 
