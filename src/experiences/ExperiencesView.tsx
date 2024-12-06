@@ -4,7 +4,8 @@ export const ExperiencesView = () => {
       <div className="space-y-3">
         <h1 className="text-3xl font-bold">About Me</h1>
         <p>
-          Hi there! I&apos;m Geoff and I&apos;ve been software engineer since 2018.
+          Hi there! I&apos;m Geoff and I&apos;ve been software engineer since
+          2018.
         </p>
       </div>
 
@@ -79,7 +80,40 @@ export const ExperiencesView = () => {
       </div>
 
       <div className="space-y-3">
-        <h1 className="text-3xl font-bold">Projects</h1>
+        <h1 className="text-3xl font-bold">Experience</h1>
+        
+        <h2 className="text-2xl font-semibold">
+          <a
+            href="https://zenodo.org/records/7601293"
+            className="text-blue-500 hover:underline"
+            target="_blank"
+          >
+            Trust &amp; Safety Engineering Study - M.S. Thesis
+          </a>
+        </h2>
+        <ul className="list-disc list-inside">
+          <li>
+            Dataset of Trust &amp; Safety GitHub issues in open-source social
+            media platforms, including Mastodon and Diaspora.
+          </li>
+          <li>
+            Repository includes Python tooling used to gather data as well as
+            reproduction steps for the study.
+          </li>
+          <li>
+            Further description of the study and its result can be found in my
+            full{" "}
+            <a
+              href="https://doi.org/10.25394/PGS.22673890.v1"
+              className="text-blue-500 hover:underline"
+              target="_blank"
+            >
+              manuscript
+            </a>
+            .
+          </li>
+        </ul>
+
         <h2 className="text-2xl font-semibold">
           <a
             href="https://chrome.google.com/webstore/detail/fillhistory/nnbagffnngmfbogaajipjmaadglmjgjc"
@@ -99,6 +133,7 @@ export const ExperiencesView = () => {
             Built with TypeScript, React, and Redux. Clean architecture design.
           </li>
         </ul>
+
         <h2 className="text-2xl font-semibold">
           <a
             href="https://correspond-dotapp.web.app/"
@@ -154,7 +189,7 @@ export const ExperiencesView = () => {
           </li>
         </ul>
 
-        <h2 className="text-2xl font-semibold">
+        {/* <h2 className="text-2xl font-semibold">
           <a
             href="https://github.com/gcwill70/maps_clone"
             className="text-blue-500 hover:underline"
@@ -176,7 +211,7 @@ export const ExperiencesView = () => {
             Straightforward setup with clear documentation on how to configure
             and run the app.
           </li>
-        </ul>
+        </ul> */}
 
         <h2 className="text-2xl font-semibold">
           Purdue Flutter Development Club
