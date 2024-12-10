@@ -134,7 +134,7 @@ export const ExperiencesView = () => {
           </li>
         </ul>
 
-        <h2 className="text-2xl font-semibold">
+        {/* <h2 className="text-2xl font-semibold">
           <a
             href="https://correspond-dotapp.web.app/"
             className="text-blue-500 hover:underline"
@@ -157,7 +157,7 @@ export const ExperiencesView = () => {
             Planned features: add pictures & images, type letters using
             handwritten fonts, and find pen pals in the app.
           </li>
-        </ul>
+        </ul> */}
 
         <h2 className="text-2xl font-semibold">Python Autograder</h2>
         <ul className="list-disc list-inside">
