@@ -1,6 +1,6 @@
 export const ExperiencesView = () => {
   return (
-    <div className="space-y-6">
+    <div className="space-y-12">
       <div className="space-y-3">
         <h1 className="text-3xl font-bold">About Me</h1>
         <p>
@@ -18,12 +18,11 @@ export const ExperiencesView = () => {
             className="text-blue-500 hover:underline"
             target="_blank"
           >
-            Engineering Patterns for Trust and Safety on Social Media Platforms:
-            A Case Study of Mastodon and Diaspora
+            Engineering Patterns for Trust and Safety on Social Media Platforms
           </a>
         </h2>
         <p>
-          Cramer, Maxam, and Davis. Journal of Systems and Software 2025. \link
+          Cramer, Maxam, and Davis. Journal of Systems and Software 2025.
         </p>
       </div>
 
