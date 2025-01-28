@@ -5,7 +5,25 @@ export const ExperiencesView = () => {
         <h1 className="text-3xl font-bold">About Me</h1>
         <p>
           Hi there! I&apos;m Geoff and I&apos;ve been software engineer since
-          2018.
+          2018. I&apos; spent recent years working in web development and Trust
+          &amp; Safety.
+        </p>
+      </div>
+
+      <div className="space-y-3">
+        <h1 className="text-3xl font-bold">Publications</h1>
+        <h2 className="text-2xl font-semibold">
+          <a
+            href="https://doi.org/10.1016/j.jss.2024.112322"
+            className="text-blue-500 hover:underline"
+            target="_blank"
+          >
+            Engineering Patterns for Trust and Safety on Social Media Platforms:
+            A Case Study of Mastodon and Diaspora
+          </a>
+        </h2>
+        <p>
+          Cramer, Maxam, and Davis. Journal of Systems and Software 2025. \link
         </p>
       </div>
 
@@ -81,7 +99,7 @@ export const ExperiencesView = () => {
 
       <div className="space-y-3">
         <h1 className="text-3xl font-bold">Experience</h1>
-        
+
         <h2 className="text-2xl font-semibold">
           <a
             href="https://zenodo.org/records/7601293"
