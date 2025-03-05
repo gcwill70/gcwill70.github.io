@@ -4,12 +4,12 @@ export const SummaryView = () => {
   return (
     <div className="flex flex-row xl:flex-col gap-4">
       <Image
-        src="/images/profile_square.JPG"
+        src="/images/profile_square.jpg"
         className="max-h-52 xl:hidden"
         alt="photo of me"
       />
       <Image
-        src="/images/profile_tall.JPG"
+        src="/images/profile_tall.jpg"
         className="max-w-52 hidden xl:block"
         alt="photo of me"
       />
