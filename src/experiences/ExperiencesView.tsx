@@ -5,8 +5,8 @@ export const ExperiencesView = () => {
         <h1 className="text-3xl font-bold">About Me</h1>
         <p>
           Hi there! I&apos;m Geoff and I&apos;ve been software engineer since
-          2018. I&apos;ve spent recent years working in web development and Trust
-          &amp; Safety.
+          2018. I&apos;ve spent recent years working in web development and
+          Trust &amp; Safety.
         </p>
       </div>
 
@@ -21,9 +21,7 @@ export const ExperiencesView = () => {
             Engineering Patterns for Trust and Safety on Social Media Platforms
           </a>
         </h2>
-        <p>
-          Cramer, Maxam, and Davis. Journal of Systems and Software 2025.
-        </p>
+        <p>Cramer, Maxam, and Davis. Journal of Systems and Software 2025.</p>
       </div>
 
       <div className="space-y-3">
@@ -101,7 +99,7 @@ export const ExperiencesView = () => {
 
         <h2 className="text-2xl font-semibold">
           <a
-            href="https://zenodo.org/records/7601293"
+            href="https://doi.org/10.25394/PGS.22673890.v1"
             className="text-blue-500 hover:underline"
             target="_blank"
           >
@@ -118,14 +116,24 @@ export const ExperiencesView = () => {
             reproduction steps for the study.
           </li>
           <li>
-            Further description of the study and its result can be found in my
-            full{" "}
+            Manuscript is available{" "}
             <a
               href="https://doi.org/10.25394/PGS.22673890.v1"
               className="text-blue-500 hover:underline"
               target="_blank"
             >
-              manuscript
+              here
+            </a>
+            .
+          </li>
+          <li>
+            Dataset is available{" "}
+            <a
+              href="https://zenodo.org/records/7601293"
+              className="text-blue-500 hover:underline"
+              target="_blank"
+            >
+              here
             </a>
             .
           </li>
