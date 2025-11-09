@@ -5,14 +5,14 @@ import { SummaryView } from "@/summary/SummaryView";
 export default function Home() {
   return (
     <main className="min-h-screen flex flex-col md:flex-row justify-center items-center p-2 md:p-4 bg-gray-100 text-gray-900">
-      <div className="w-full max-w-6xl flex flex-col md:flex-row items-stretch gap-4 md:gap-8 p-2 md:p-4">
-        <div className="w-full md:max-w-xs mb-4 md:mb-0">
+      <div className="max-w-screen-2xl p-2 flex flex-col md:flex-row items-stretch gap-4">
+        <div className="mb-4">
           <SummaryView />
         </div>
-        <div className="w-full md:min-w-[22rem] mb-4 md:mb-0">
+        <div className="w-full md:flex-[3] min-w-[28rem] mb-4">
           <ExperiencesView />
         </div>
-        <div className="w-full md:max-w-md">
+        <div className="w-full md:flex-[2]">
           <SkillsView />
         </div>
       </div>
