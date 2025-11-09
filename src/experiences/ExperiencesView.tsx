@@ -4,7 +4,7 @@ export const ExperiencesView = () => {
       <div className="space-y-3">
         <h1 className="text-3xl font-bold">About Me</h1>
         <p>
-          Hi there! I&apos;m Geoff and I&apos;m a software engineer with 3 years
+          Hi there! I&apos;m Geoff and I&apos;m a software engineer with 5 years
           of professional experience.
         </p>
       </div>
