@@ -1,12 +1,27 @@
 export const ExperiencesView = () => {
   return (
-    <div className="space-y-6">
+    <div className="space-y-12">
       <div className="space-y-3">
         <h1 className="text-3xl font-bold">About Me</h1>
         <p>
-          Hi there! I&apos;m Geoff and I&apos;m a software engineer with 5 years
-          of professional experience.
+          Hi there! I&apos;m Geoff and I&apos;ve been software engineer since
+          2018. I&apos;ve spent recent years working in web development and
+          Trust &amp; Safety.
         </p>
+      </div>
+
+      <div className="space-y-3">
+        <h1 className="text-3xl font-bold">Publications</h1>
+        <h2 className="text-2xl font-semibold">
+          <a
+            href="https://doi.org/10.1016/j.jss.2024.112322"
+            className="text-blue-500 hover:underline"
+            target="_blank"
+          >
+            Engineering Patterns for Trust and Safety on Social Media Platforms
+          </a>
+        </h2>
+        <p>Cramer, Maxam, and Davis. Journal of Systems and Software 2025.</p>
       </div>
 
       <div className="space-y-3">
@@ -67,20 +82,63 @@ export const ExperiencesView = () => {
             Focus on software engineering with courses in data structures,
             algorithms, and object-oriented design.
           </li>
-          <li>
+          {/* <li>
             <a
-              href="https://chrome.google.com/webstore/detail/fillhistory/nnbagffnngmfbogaajipjmaadglmjgjc"
+              href="https://github.com/gcwill70/Senior-Design/tree/master/SensorHub"
               className="text-blue-500 hover:underline"
               target="_blank"
             >
               SensorHub - Senior Project
             </a>
-          </li>
+          </li> */}
         </ul>
       </div>
 
       <div className="space-y-3">
-        <h1 className="text-3xl font-bold">Projects</h1>
+        <h1 className="text-3xl font-bold">Experience</h1>
+
+        <h2 className="text-2xl font-semibold">
+          <a
+            href="https://doi.org/10.25394/PGS.22673890.v1"
+            className="text-blue-500 hover:underline"
+            target="_blank"
+          >
+            Trust &amp; Safety Engineering Study - M.S. Thesis
+          </a>
+        </h2>
+        <ul className="list-disc list-inside">
+          <li>
+            Dataset of Trust &amp; Safety GitHub issues in open-source social
+            media platforms, including Mastodon and Diaspora.
+          </li>
+          <li>
+            Repository includes Python tooling used to gather data as well as
+            reproduction steps for the study.
+          </li>
+          <li>
+            Manuscript is available{" "}
+            <a
+              href="https://doi.org/10.25394/PGS.22673890.v1"
+              className="text-blue-500 hover:underline"
+              target="_blank"
+            >
+              here
+            </a>
+            .
+          </li>
+          <li>
+            Dataset is available{" "}
+            <a
+              href="https://zenodo.org/records/7601293"
+              className="text-blue-500 hover:underline"
+              target="_blank"
+            >
+              here
+            </a>
+            .
+          </li>
+        </ul>
+
         <h2 className="text-2xl font-semibold">
           <a
             href="https://chrome.google.com/webstore/detail/fillhistory/nnbagffnngmfbogaajipjmaadglmjgjc"
@@ -100,7 +158,8 @@ export const ExperiencesView = () => {
             Built with TypeScript, React, and Redux. Clean architecture design.
           </li>
         </ul>
-        <h2 className="text-2xl font-semibold">
+
+        {/* <h2 className="text-2xl font-semibold">
           <a
             href="https://correspond-dotapp.web.app/"
             className="text-blue-500 hover:underline"
@@ -123,7 +182,7 @@ export const ExperiencesView = () => {
             Planned features: add pictures & images, type letters using
             handwritten fonts, and find pen pals in the app.
           </li>
-        </ul>
+        </ul> */}
 
         <h2 className="text-2xl font-semibold">Python Autograder</h2>
         <ul className="list-disc list-inside">
@@ -155,7 +214,7 @@ export const ExperiencesView = () => {
           </li>
         </ul>
 
-        <h2 className="text-2xl font-semibold">
+        {/* <h2 className="text-2xl font-semibold">
           <a
             href="https://github.com/gcwill70/maps_clone"
             className="text-blue-500 hover:underline"
@@ -177,14 +236,14 @@ export const ExperiencesView = () => {
             Straightforward setup with clear documentation on how to configure
             and run the app.
           </li>
-        </ul>
+        </ul> */}
 
         <h2 className="text-2xl font-semibold">
           Purdue Flutter Development Club
         </h2>
         <ul className="list-disc list-inside">
           <li>
-            Lead the{" "}
+            Led the{" "}
             <a
               href="https://github.com/purdueflutter"
               className="text-blue-500 hover:underline"
