@@ -2,15 +2,19 @@ import Image from "next/image";
 
 export const SummaryView = () => {
   return (
-    <div className="flex flex-row xl:flex-col gap-4">
+    <div className="flex flex-row md:flex-col gap-4">
       <Image
         src="/images/profile_square.jpg"
-        className="max-h-52 xl:hidden"
+        width={208}
+        height={208}
+        className="max-h-52 md:hidden"
         alt="photo of me"
       />
       <Image
         src="/images/profile_tall.jpg"
-        className="max-w-52 hidden xl:block"
+        width={208}
+        height={312}
+        className="hidden md:block"
         alt="photo of me"
       />
       <div className="flex flex-col gap-2">
@@ -25,11 +29,17 @@ export const SummaryView = () => {
             <Image
               src="/images/ic_linked_in.png"
               alt="LinkedIn"
-              className="w-10"
+              width={40}
+              height={40}
             />
           </a>
           <a href="https://github.com/gcwill70" target="_blank">
-            <Image src="/images/ic_github.png" alt="GitHub" className="w-10" />
+            <Image
+              src="/images/ic_github.png"
+              alt="GitHub"
+              width={40}
+              height={40}
+            />
           </a>
         </div>
       </div>
