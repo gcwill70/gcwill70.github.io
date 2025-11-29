@@ -1,7 +1,7 @@
 export default function Projects() {
   return (
     <div className="space-y-3">
-      <h1 className="text-3xl font-bold">Projects</h1>
+      <h1>Projects</h1>
 
       <h2 className="text-2xl font-semibold">
         <a

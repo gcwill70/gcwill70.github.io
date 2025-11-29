@@ -16,6 +16,11 @@
   }
 }
 
+h1 {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(

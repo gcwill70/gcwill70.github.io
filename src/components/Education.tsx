@@ -1,7 +1,7 @@
 export default function Education() {
   return (
     <div className="space-y-3">
-      <h1 className="text-3xl font-bold">Education</h1>
+      <h1>Education</h1>
       <h2 className="text-2xl font-semibold">
         M.S. in Computer Engineering with Thesis - Purdue University - 2023
       </h2>
