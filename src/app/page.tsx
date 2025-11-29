@@ -1,4 +1,4 @@
-import { ExperiencesView } from "@/components/ExperiencesView";
+import { ProjectsView } from "@/components/ProjectsView";
 import { SkillsView } from "@/components/SkillsView";
 import { SummaryView } from "@/components/SummaryView";
 
@@ -10,7 +10,7 @@ export default function Home() {
           <SummaryView />
         </div>
         <div className="w-full md:flex-[3]">
-          <ExperiencesView />
+          <ProjectsView />
         </div>
         <div className="w-full md:flex-[1]">
           <SkillsView />

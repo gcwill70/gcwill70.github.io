@@ -1,4 +1,4 @@
-export const ExperiencesView = () => {
+export const ProjectsView = () => {
   return (
     <div className="space-y-12">
       <div className="space-y-3">
@@ -95,7 +95,7 @@ export const ExperiencesView = () => {
       </div>
 
       <div className="space-y-3">
-        <h1 className="text-3xl font-bold">Experience</h1>
+        <h1 className="text-3xl font-bold">Projects</h1>
 
         <h2 className="text-2xl font-semibold">
           <a
