@@ -1,4 +1,5 @@
 import Education from "@/components/Education";
+import Experience from "@/components/Experience";
 import Projects from "@/components/Projects";
 import Publications from "@/components/Publications";
 
@@ -17,6 +18,8 @@ export default () => {
       <Publications />
 
       <Education />
+
+      <Experience />
 
       <Projects />
     </div>
