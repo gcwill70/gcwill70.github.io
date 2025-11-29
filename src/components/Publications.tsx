@@ -2,7 +2,7 @@ export default function Projects() {
   return (
     <div className="space-y-3">
       <h1>Publications</h1>
-      <h2 className="text-2xl font-semibold">
+      <h2>
         <a
           href="https://doi.org/10.1016/j.jss.2024.112322"
           className="text-blue-500 hover:underline"

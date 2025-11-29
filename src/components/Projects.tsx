@@ -3,7 +3,7 @@ export default function Projects() {
     <div className="space-y-3">
       <h1>Projects</h1>
 
-      <h2 className="text-2xl font-semibold">
+      <h2>
         <a
           href="https://chrome.google.com/webstore/detail/fillhistory/nnbagffnngmfbogaajipjmaadglmjgjc"
           className="text-blue-500 hover:underline"
@@ -23,7 +23,7 @@ export default function Projects() {
         </li>
       </ul>
 
-      {/* <h2 className="text-2xl font-semibold">
+      {/* <h2>
           <a
             href="https://correspond-dotapp.web.app/"
             className="text-blue-500 hover:underline"
@@ -48,7 +48,7 @@ export default function Projects() {
           </li>
         </ul> */}
 
-      <h2 className="text-2xl font-semibold">Python Autograder</h2>
+      <h2>Python Autograder</h2>
       <ul>
         <li>
           Developed toolkit to collect and grade student code inside a GitHub
@@ -78,7 +78,7 @@ export default function Projects() {
         </li>
       </ul>
 
-      {/* <h2 className="text-2xl font-semibold">
+      {/* <h2>
           <a
             href="https://github.com/gcwill70/maps_clone"
             className="text-blue-500 hover:underline"
@@ -102,9 +102,7 @@ export default function Projects() {
           </li>
         </ul> */}
 
-      <h2 className="text-2xl font-semibold">
-        Purdue Flutter Development Club
-      </h2>
+      <h2>Purdue Flutter Development Club</h2>
       <ul>
         <li>
           Led the{" "}

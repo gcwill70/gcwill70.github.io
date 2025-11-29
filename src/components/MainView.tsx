@@ -15,7 +15,7 @@ export default function MainView() {
       </div>
 
       {/* <div>
-        <h2 className="text-2xl font-semibold">Hobbies</h2>
+        <h2>Hobbies</h2>
         <p>
           ⛳️ Golfing
           <br />

@@ -3,7 +3,7 @@ export default function Experience() {
     <div className="space-y-3">
       <h1>Experience</h1>
 
-      <h2 className="text-2xl font-semibold">
+      <h2>
         <a
           href="https://doi.org/10.25394/PGS.22673890.v1"
           className="text-blue-500 hover:underline"
@@ -45,7 +45,7 @@ export default function Experience() {
         </li>
       </ul>
 
-      <h2 className="text-2xl font-semibold">
+      <h2>
         <a
           href="https://buildboundless.com/"
           className="text-blue-500 hover:underline"

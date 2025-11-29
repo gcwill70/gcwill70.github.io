@@ -2,7 +2,7 @@ export default function Education() {
   return (
     <div className="space-y-3">
       <h1>Education</h1>
-      <h2 className="text-2xl font-semibold">
+      <h2>
         M.S. in Computer Engineering with Thesis - Purdue University - 2023
       </h2>
       <ul>
@@ -49,7 +49,7 @@ export default function Education() {
           in Python to collect and analyze GitHub issue discussions.
         </li>
       </ul>
-      <h2 className="text-2xl font-semibold">
+      <h2>
         B.S. Electrical Engineering with Distinction - Purdue University - 2018
       </h2>
       <ul>
@@ -69,4 +69,4 @@ export default function Education() {
       </ul>
     </div>
   );
-};
+}

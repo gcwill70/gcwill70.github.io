@@ -21,6 +21,12 @@ h1 {
   line-height: 2.25rem;
 }
 
+h2 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 600;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
