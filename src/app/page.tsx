@@ -1,4 +1,4 @@
-import { MainView } from "@/components/MainView";
+import MainView from "@/components/MainView";
 import { SkillsView } from "@/components/SkillsView";
 import { SummaryView } from "@/components/SummaryView";
 

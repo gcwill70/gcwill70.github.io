@@ -1,6 +1,6 @@
 import Publications from "@/components/Publications";
 
-export const MainView = () => {
+export default () => {
   return (
     <div className="space-y-12">
       <div className="space-y-3">
