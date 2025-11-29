@@ -1,4 +1,4 @@
-export const ProjectsView = () => {
+export const MainView = () => {
   return (
     <div className="space-y-12">
       <div className="space-y-3">
