@@ -18,7 +18,7 @@ export const ExperiencesView = () => {
             className="text-blue-500 hover:underline"
             target="_blank"
           >
-            Engineering Patterns for Trust and Safety on Social Media Platforms
+            Engineering patterns for Trust and Safety on social media platforms
           </a>
         </h2>
         <p>Cramer, Maxam, and Davis. Journal of Systems and Software 2025.</p>
