@@ -12,7 +12,7 @@ export default function Projects() {
           FillHistory
         </a>
       </h2>
-      <ul className="list-disc list-inside">
+      <ul>
         <li>Autofill links from browser history.</li>
         <li>
           Open a window with a shortcut, search through history, then insert
@@ -32,7 +32,7 @@ export default function Projects() {
             correspond.app
           </a>
         </h2>
-        <ul className="list-disc list-inside">
+        <ul>
           <li>Flutter mobile app to send and receive handwritten letters.</li>
           <li>
             Clean, feature-oriented architecture with Firebase auth providers
@@ -49,7 +49,7 @@ export default function Projects() {
         </ul> */}
 
       <h2 className="text-2xl font-semibold">Python Autograder</h2>
-      <ul className="list-disc list-inside">
+      <ul>
         <li>
           Developed toolkit to collect and grade student code inside a GitHub
           Action for full automation and easy scalability.
@@ -87,7 +87,7 @@ export default function Projects() {
             Google Maps Clone
           </a>
         </h2>
-        <ul className="list-disc list-inside">
+        <ul>
           <li>
             Flutter mobile app with basic features of Google Maps location
             search and navigation.
@@ -105,7 +105,7 @@ export default function Projects() {
       <h2 className="text-2xl font-semibold">
         Purdue Flutter Development Club
       </h2>
-      <ul className="list-disc list-inside">
+      <ul>
         <li>
           Led the{" "}
           <a

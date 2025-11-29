@@ -12,7 +12,7 @@ export default function Experience() {
           Trust &amp; Safety Engineering Study - M.S. Thesis
         </a>
       </h2>
-      <ul className="list-disc list-inside">
+      <ul>
         <li>
           Dataset of Trust &amp; Safety GitHub issues in open-source social
           media platforms, including Mastodon and Diaspora.
@@ -54,7 +54,7 @@ export default function Experience() {
           Senior Software Engineer - Boundless
         </a>
       </h2>
-      <ul className="list-disc list-inside">
+      <ul>
         <li>
           Built social application for customer niche with an admin interface,
           user safety features, and robust user analytics plugin.

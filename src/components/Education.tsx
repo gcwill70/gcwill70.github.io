@@ -5,7 +5,7 @@ export default function Education() {
       <h2 className="text-2xl font-semibold">
         M.S. in Computer Engineering with Thesis - Purdue University - 2023
       </h2>
-      <ul className="list-disc list-inside">
+      <ul>
         <li>
           Thesis Title: Trust & Safety Engineering in Open-source Social Media
           Platforms
@@ -52,7 +52,7 @@ export default function Education() {
       <h2 className="text-2xl font-semibold">
         B.S. Electrical Engineering with Distinction - Purdue University - 2018
       </h2>
-      <ul className="list-disc list-inside">
+      <ul>
         <li>
           Focus on software engineering with courses in data structures,
           algorithms, and object-oriented design.

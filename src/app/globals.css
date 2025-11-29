@@ -26,6 +26,11 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+li {
+  list-style-type: disc;
+  padding-left: 1.25rem;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
