@@ -1,4 +1,4 @@
-export default () => {
+export default function Experience() {
   return (
     <div className="space-y-3">
       <h1 className="text-3xl font-bold">Experience</h1>
