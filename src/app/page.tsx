@@ -1,6 +1,6 @@
-import { ExperiencesView } from "@/experiences/ExperiencesView";
-import { SkillsView } from "@/skills/SkillsView";
-import { SummaryView } from "@/summary/SummaryView";
+import { ExperiencesView } from "@/components/ExperiencesView";
+import { SkillsView } from "@/components/SkillsView";
+import { SummaryView } from "@/components/SummaryView";
 
 export default function Home() {
   return (
