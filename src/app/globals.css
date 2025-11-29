@@ -38,9 +38,13 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+ul {
+  margin-left: 1rem;
+  list-style-position: outside;
+}
+
 li {
   list-style-type: disc;
-  padding-left: 1.25rem;
 }
 
 a {
