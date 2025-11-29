@@ -6,7 +6,6 @@ export default function Projects() {
       <h2>
         <a
           href="https://chrome.google.com/webstore/detail/fillhistory/nnbagffnngmfbogaajipjmaadglmjgjc"
-          className="text-blue-500 hover:underline"
           target="_blank"
         >
           FillHistory
@@ -26,7 +25,7 @@ export default function Projects() {
       {/* <h2>
           <a
             href="https://correspond-dotapp.web.app/"
-            className="text-blue-500 hover:underline"
+            
             target="_blank"
           >
             correspond.app
@@ -55,11 +54,7 @@ export default function Projects() {
           Action for full automation and easy scalability.
         </li>
         <li>
-          <a
-            href="https://pypi.org/project/autograde.py/"
-            className="text-blue-500 hover:underline"
-            target="_blank"
-          >
+          <a href="https://pypi.org/project/autograde.py/" target="_blank">
             autograde.py
           </a>{" "}
           runs provided tests and collects results that can be uploaded as
@@ -68,7 +63,6 @@ export default function Projects() {
         <li>
           <a
             href="https://github.com/PurdueECE/autograder-demo"
-            className="text-blue-500 hover:underline"
             target="_blank"
           >
             GitHub Actions workflow
@@ -81,7 +75,7 @@ export default function Projects() {
       {/* <h2>
           <a
             href="https://github.com/gcwill70/maps_clone"
-            className="text-blue-500 hover:underline"
+            
             target="_blank"
           >
             Google Maps Clone
@@ -106,11 +100,7 @@ export default function Projects() {
       <ul>
         <li>
           Led the{" "}
-          <a
-            href="https://github.com/purdueflutter"
-            className="text-blue-500 hover:underline"
-            target="_blank"
-          >
+          <a href="https://github.com/purdueflutter" target="_blank">
             Purdue Flutter Development Club
           </a>{" "}
           along with President to recruit members, organize events, run
@@ -118,17 +108,12 @@ export default function Projects() {
         </li>
         <li>
           State management workshop.{" "}
-          <a
-            href="https://www.youtube.com/watch?v=EJag5uRRy6c"
-            className="text-blue-500 hover:underline"
-            target="_blank"
-          >
+          <a href="https://www.youtube.com/watch?v=EJag5uRRy6c" target="_blank">
             YouTube
           </a>{" "}
           |{" "}
           <a
             href="https://github.com/purdueflutter/state_mgmt_workshop"
-            className="text-blue-500 hover:underline"
             target="_blank"
           >
             GitHub
@@ -136,17 +121,12 @@ export default function Projects() {
         </li>
         <li>
           Personal website workshop.{" "}
-          <a
-            href="https://www.youtube.com/watch?v=gq3wCHI0G5w"
-            className="text-blue-500 hover:underline"
-            target="_blank"
-          >
+          <a href="https://www.youtube.com/watch?v=gq3wCHI0G5w" target="_blank">
             YouTube
           </a>{" "}
           |{" "}
           <a
             href="https://github.com/purdueflutter/purdueflutter.github.io"
-            className="text-blue-500 hover:underline"
             target="_blank"
           >
             GitHub
@@ -156,7 +136,6 @@ export default function Projects() {
           Class viewer app.{" "}
           <a
             href="https://github.com/purdueflutter/basicflutterworkshop_app"
-            className="text-blue-500 hover:underline"
             target="_blank"
           >
             GitHub

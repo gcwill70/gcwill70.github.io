@@ -4,11 +4,7 @@ export default function Experience() {
       <h1>Experience</h1>
 
       <h2>
-        <a
-          href="https://doi.org/10.25394/PGS.22673890.v1"
-          className="text-blue-500 hover:underline"
-          target="_blank"
-        >
+        <a href="https://doi.org/10.25394/PGS.22673890.v1" target="_blank">
           Trust &amp; Safety Engineering Study - M.S. Thesis
         </a>
       </h2>
@@ -23,22 +19,14 @@ export default function Experience() {
         </li>
         <li>
           Manuscript is available{" "}
-          <a
-            href="https://doi.org/10.25394/PGS.22673890.v1"
-            className="text-blue-500 hover:underline"
-            target="_blank"
-          >
+          <a href="https://doi.org/10.25394/PGS.22673890.v1" target="_blank">
             here
           </a>
           .
         </li>
         <li>
           Dataset is available{" "}
-          <a
-            href="https://zenodo.org/records/7601293"
-            className="text-blue-500 hover:underline"
-            target="_blank"
-          >
+          <a href="https://zenodo.org/records/7601293" target="_blank">
             here
           </a>
           .
@@ -46,11 +34,7 @@ export default function Experience() {
       </ul>
 
       <h2>
-        <a
-          href="https://buildboundless.com/"
-          className="text-blue-500 hover:underline"
-          target="_blank"
-        >
+        <a href="https://buildboundless.com/" target="_blank">
           Senior Software Engineer - Boundless
         </a>
       </h2>

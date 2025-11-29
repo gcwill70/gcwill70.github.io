@@ -13,37 +13,21 @@ export default function Education() {
         <li>
           First empirical study of T&S Engineering that analyzed 60 GitHub
           issues in{" "}
-          <a
-            href="https://joinmastodon.org"
-            className="text-blue-500 hover:underline"
-            target="_blank"
-          >
+          <a href="https://joinmastodon.org" target="_blank">
             Mastodon
           </a>{" "}
           and{" "}
-          <a
-            href="https://diasporafoundation.org"
-            className="text-blue-500 hover:underline"
-            target="_blank"
-          >
+          <a href="https://diasporafoundation.org" target="_blank">
             Diaspora
           </a>
           . Manuscript is available{" "}
-          <a
-            href="https://doi.org/10.25394/PGS.22673890.v1"
-            className="text-blue-500 hover:underline"
-            target="_blank"
-          >
+          <a href="https://doi.org/10.25394/PGS.22673890.v1" target="_blank">
             here.
           </a>
         </li>
         <li>
           Developed{" "}
-          <a
-            href="https://github.com/gcwill70/mining_tool"
-            className="text-blue-500 hover:underline"
-            target="_blank"
-          >
+          <a href="https://github.com/gcwill70/mining_tool" target="_blank">
             mining_tool
           </a>{" "}
           in Python to collect and analyze GitHub issue discussions.
@@ -60,7 +44,7 @@ export default function Education() {
         {/* <li>
             <a
               href="https://github.com/gcwill70/Senior-Design/tree/master/SensorHub"
-              className="text-blue-500 hover:underline"
+              
               target="_blank"
             >
               SensorHub - Senior Project

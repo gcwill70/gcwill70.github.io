@@ -42,6 +42,14 @@ li {
   padding-left: 1.25rem;
 }
 
+a {
+  color: #3b82f6;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
