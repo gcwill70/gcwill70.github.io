@@ -47,11 +47,11 @@ export default () => {
 
       <h2 className="text-2xl font-semibold">
         <a
-          href="https://developertown.com/"
+          href="https://buildboundless.com/"
           className="text-blue-500 hover:underline"
           target="_blank"
         >
-          Senior Software Engineer - DeveloperTown
+          Senior Software Engineer - Boundless
         </a>
       </h2>
       <ul className="list-disc list-inside">
