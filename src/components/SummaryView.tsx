@@ -19,10 +19,10 @@ export const SummaryView = () => {
       />
       <div className="flex flex-col gap-2">
         <div>
-          <h1>Geoff Cramer</h1>
-          <h2>Fullstack Developer</h2>
-          <h3>M.S. in Computer Engineering</h3>
-          <h4>gcwill70@gmail.com</h4>
+          <p className="font-light font-md">Geoff Cramer</p>
+          <p className="font-light">Software Engineer</p>
+          <p className="font-light">M.S. in Computer Engineering</p>
+          <p className="font-light">gcwill70@gmail.com</p>
         </div>
         <div className="flex flex-row gap-3">
           <a href="https://www.linkedin.com/in/geoff-cramer/" target="_blank">
