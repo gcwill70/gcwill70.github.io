@@ -53,8 +53,7 @@ export default function Experience() {
           coverage.
         </li>
         <li>
-          Led the delivery of 5 projects on time and under budget by pioneering
-          Agile adoption organization-wide.
+          Led the delivery of 5 projects on time and under budget.
         </li>
       </ul>
     </div>
