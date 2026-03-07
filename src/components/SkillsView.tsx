@@ -58,7 +58,6 @@ export const SkillsView = () => {
           <span className="m-1 p-2 bg-red-200 rounded">React Native</span>
           <span className="m-1 p-2 bg-red-200 rounded">Expo</span>
           <span className="m-1 p-2 bg-red-200 rounded">Flutter</span>
-          <span className="m-1 p-2 bg-red-200 rounded">Xamarin</span>
           <span className="m-1 p-2 bg-red-200 rounded">Android</span>
           <span className="m-1 p-2 bg-red-200 rounded">iOS</span>
         </div>
