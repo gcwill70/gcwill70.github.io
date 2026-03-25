@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "gcwill70.github.io",
+  title: "geoff",
+  icons: [],
 };
 
 export default function RootLayout({
