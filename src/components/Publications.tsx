@@ -7,7 +7,9 @@ export default function Projects() {
           Engineering patterns for Trust and Safety on social media platforms
         </a>
       </h2>
-      <p>Cramer, Maxam, and Davis. Journal of Systems and Software 2025.</p>
+      <p>
+        Cramer, Maxam, and Davis. Journal of Systems and Software. April 2025.
+      </p>
     </div>
   );
 }

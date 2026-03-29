@@ -11,8 +11,11 @@ export default function Education() {
           Platforms
         </li>
         <li>
-          First empirical study of T&S Engineering that analyzed 60 GitHub
-          issues in{" "}
+          First empirical{" "}
+          <a href="https://doi.org/10.25394/PGS.22673890.v1" target="_blank">
+            study
+          </a>{" "}
+          of T&S Engineering that analyzed 60 GitHub issues in{" "}
           <a href="https://joinmastodon.org" target="_blank">
             Mastodon
           </a>{" "}
@@ -20,10 +23,7 @@ export default function Education() {
           <a href="https://diasporafoundation.org" target="_blank">
             Diaspora
           </a>
-          . Manuscript is available{" "}
-          <a href="https://doi.org/10.25394/PGS.22673890.v1" target="_blank">
-            here.
-          </a>
+          .
         </li>
         <li>
           Developed{" "}
