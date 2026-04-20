@@ -38,7 +38,6 @@ export const SummaryView = () => {
             <p>Software Engineer @</p>
             <BlueskyIcon size="h-[1.2em] w-[1.2em]" />
           </div>
-          <p className="font-light">M.S. in Computer Engineering</p>
           <p className="font-light">gcwill70@gmail.com</p>
         </div>
         <div className="flex flex-row gap-3">

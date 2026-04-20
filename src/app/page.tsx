@@ -12,9 +12,9 @@ export default function Home() {
         <div className="w-full md:flex-[3]">
           <MainView />
         </div>
-        <div className="w-full md:flex-[1]">
+        {/* <div className="w-full md:flex-[1]">
           <SkillsView />
-        </div>
+        </div> */}
       </div>
     </main>
   );
