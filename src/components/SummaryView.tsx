@@ -31,14 +31,20 @@ export const SummaryView = () => {
         className="hidden md:block"
         alt="photo of me"
       />
-      <div className="flex flex-col gap-2">
+      <div className="flex flex-col gap-3">
         <div>
-          <p className="font-light font-md">Geoff Cramer</p>
-          <div className="font-light inline-flex items-center gap-2">
+          <p className="text-2xl font-normal">Geoff Cramer</p>
+          <p className="text-lg">
+            Trust & Safety Engineer. Driven to make platforms safer and fight
+            abuse.
+          </p>
+        </div>
+        <div className="text-md">
+          <div className="inline-flex items-center gap-2">
             <p>Software Engineer @</p>
             <BlueskyIcon size="h-[1.2em] w-[1.2em]" />
           </div>
-          <p className="font-light">gcwill70@gmail.com</p>
+          <p>gcwill70@gmail.com</p>
         </div>
         <div className="flex flex-row gap-3">
           <BlueskyIcon

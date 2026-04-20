@@ -60,3 +60,7 @@ a:hover {
     text-wrap: balance;
   }
 }
+
+p {
+  font-weight: 300;
+}

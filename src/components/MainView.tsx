@@ -6,14 +6,6 @@ import Publications from "@/components/Publications";
 export default function MainView() {
   return (
     <div className="space-y-12">
-      <div className="space-y-3">
-        <h1>About Me</h1>
-        <p>
-          Software Engineer with specialization in Trust & Safety. Driven to
-          make platforms safer and fight abuse.
-        </p>
-      </div>
-
       {/* <div>
         <h2>Hobbies</h2>
         <p>
