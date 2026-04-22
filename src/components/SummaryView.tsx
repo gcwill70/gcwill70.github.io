@@ -16,20 +16,13 @@ function BlueskyIcon({ link, size }: { link?: string; size?: string }) {
 
 export const SummaryView = () => {
   return (
-    <div className="flex flex-row md:flex-col gap-4">
+    <div className="max-w-fit lg:max-w-80 flex flex-row lg:flex-col gap-4">
       <Image
-        src="/images/profile_square.jpg"
-        width={208}
-        height={208}
-        className="max-h-52 md:hidden"
+        src="/images/profile.jpg"
+        width={300}
+        height={250}
         alt="photo of me"
-      />
-      <Image
-        src="/images/profile_tall.jpg"
-        width={208}
-        height={312}
-        className="hidden md:block"
-        alt="photo of me"
+        className="max-h-64 lg:max-h-fit w-auto h-auto rounded-lg"
       />
       <div className="flex flex-col gap-3">
         <div>
