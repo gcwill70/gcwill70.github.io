@@ -1,3 +1,4 @@
+"use client";
 import MainView from "@/components/MainView";
 import { SummaryView } from "@/components/SummaryView";
 
