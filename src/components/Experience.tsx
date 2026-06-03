@@ -2,7 +2,33 @@ export default function Experience() {
   return (
     <div className="space-y-3">
       <h1>Experience</h1>
-
+      <h2>
+        <a href="https://bsky.social" target="_blank">
+          Software Engineer - bluesky
+        </a>
+      </h2>
+      Helping shape the future of social networking!
+      <h2>
+        <a href="https://buildboundless.com/" target="_blank">
+          Software Engineer - Boundless
+        </a>
+      </h2>
+      <ul>
+        <li>
+          Built social application for customer niche with an admin interface,
+          user safety features, and robust user analytics plugin.
+        </li>
+        <li>
+          Created AI health assessment application in Next.js with robust
+          prompting architecture, design system, and HIPAA protection.
+        </li>
+        <li>
+          Replaced financial process that generates 100% of stakeholder revenue
+          by writing over 20,000 lines of calculation logic with 96% test
+          coverage.
+        </li>
+        <li>Led the delivery of 5 projects on time and under budget.</li>
+      </ul>
       <h2>
         <a href="https://doi.org/10.25394/PGS.22673890.v1" target="_blank">
           Trust &amp; Safety Engineering Study - M.S. Thesis
@@ -32,30 +58,6 @@ export default function Experience() {
           .
         </li>
       </ul>
-
-      <h2>
-        <a href="https://buildboundless.com/" target="_blank">
-          Senior Software Engineer - Boundless
-        </a>
-      </h2>
-      <ul>
-        <li>
-          Built social application for customer niche with an admin interface,
-          user safety features, and robust user analytics plugin.
-        </li>
-        <li>
-          Created AI health assessment application in Next.js with robust
-          prompting architecture, design system, and HIPAA protection.
-        </li>
-        <li>
-          Replaced financial process that generates 100% of stakeholder revenue
-          by writing over 20,000 lines of calculation logic with 96% test
-          coverage.
-        </li>
-        <li>
-          Led the delivery of 5 projects on time and under budget.
-        </li>
-      </ul>
     </div>
   );
-};
+}

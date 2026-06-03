@@ -24,11 +24,11 @@ export default function MainView() {
         </p>
       </div> */}
 
+      <Experience />
+
       <Publications />
 
       <Education />
-
-      <Experience />
 
       <Projects />
     </div>
